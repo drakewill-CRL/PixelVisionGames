@@ -9,8 +9,8 @@ function CreateTextDisplay(rect)
   data.lines = {}
   data.currentLine = 1
   data.totalLines = 0
-  data.textDelay = .02
-  data.pauseDelay = 1
+  data.textDelay = 200
+  data.pauseDelay = 1000
   data.textTime = 0
   data.currentChar = 0
   data.totalChars = 0

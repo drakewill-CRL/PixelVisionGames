@@ -8,11 +8,11 @@ function CreateInputField(rect)
   data.maxChars = math.floor(rect.w / 8)
   -- data.cursorCol = 0
   data.blinkTime = 0
-  data.blinkDelay = .4
+  data.blinkDelay = 400
   data.blink = false
   data.blinkChar = "_"
   data.inputTime = 0
-  data.inputDelay = .1
+  data.inputDelay = 100
   data.editing = true
   data.rect = rect
   data.spriteSize = {x = 8, y = 8}
@@ -93,7 +93,7 @@ function KeyCapture(data)
 
     data.inputTime = 0
 
-    if(Key(Keys.Backspace)) then
+    if(Key(Keys.Back)) then
 
       data.text = data.text:sub(0, #data.text - 1)
 

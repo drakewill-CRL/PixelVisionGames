@@ -24,6 +24,9 @@ end
 
 function Update(timeDelta)
 
+  -- Convert to a fraction (legacy support)
+  timeDelta = timeDelta / 1000
+
   UpdateGame(timeDelta)
 
   if(entities ~= nil) then

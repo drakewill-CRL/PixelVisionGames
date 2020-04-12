@@ -10,7 +10,7 @@ $openPath=/Workspace/Games/
 #Files to install
 
 # Games
-/Games/JumpNShootManLD41/|/JumpNShootManLD41/
-/Games/ReaperBoyLD40/|/ReaperBoyLD40/
-/Games/ReaperBoyLD42/|/ReaperBoyLD42/
-/Games/Terminal/|/Terminal/
+/JumpNShootManLD41/
+/ReaperBoyLD40/
+/ReaperBoyLD42/
+/Terminal/

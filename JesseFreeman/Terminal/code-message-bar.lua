@@ -6,7 +6,7 @@ local messageRect = {x = 8, y = 224 - 8, w = 240, h = 8}
 
 function DisplayMessage(text, delay)
 
-  messageDelay = delay or 5
+  messageDelay = delay or 500
   messageText = text
   messageTime = 0
 
